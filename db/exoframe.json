@@ -1,0 +1,10 @@
+{
+    "name": "niamhbrown-message-database",
+    "domain": false,
+    "hostname": "niamhbrown-message-database",
+    "image": "postgres:12",
+    "env": {
+        "POSTGRES_PASSWORD": "@niamhbrown-postgres-password"
+    },
+    "volumes": ["niamhbrown_message_database_volume:/var/lib/postgresql/data"]
+}

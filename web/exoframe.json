@@ -1,0 +1,10 @@
+{
+    "name": "niamhbrown-message-web",
+    "domain": "niamhbrown-messages.xf.mkrs.link",
+    "port": 5000,
+    "env": {
+        "APP_ENV": "PRODUCTION",
+        "POSTGRES_HOSTNAME": "niamhbrown-message-database",
+        "POSTGRES_PASSWORD": "@niamhbrown-postgres-password"
+    }
+}
